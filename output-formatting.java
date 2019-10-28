@@ -17,14 +17,10 @@ public class Solution {
                 {
                     System.out.print(" ");
                 }
-                if(x%100!=0)
+                if(x>9 && x<100)
                 {
                     System.out.println("0"+x);
                 }
-                /*else if(x%10!=0)
-                {
-                    System.out.println("00"+x);
-                }*/
                 else if(x<9)
                 {
                     System.out.println("00"+x);
@@ -39,6 +35,9 @@ public class Solution {
 
     }
 }
+
+
+
 
 
 
